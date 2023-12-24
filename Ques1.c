@@ -16,8 +16,8 @@ void displayArray(int r, int c, int arr[r][c]) {
 
 int main() {
     int r = 3, c = 3;
-    int arr1[3][3] = {{5, 7, 7}, {9, 4, 1}, {6, 9, 1}};
-    int arr2[3][3] = {{5, 1, 4}, {8, 9, 7}, {3, 1, 7}};
+    int arr1[3][3] = {{1, 3, 4}, {3, 1, 5}, {2, 4, 5}};
+    int arr2[3][3] = {{4, 1, 3}, {1, 2, 4}, {3, 2, 1}};
     int result[3][3];
 
     addArrays(r, c, arr1, arr2, result);
